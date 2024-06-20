@@ -1,0 +1,48 @@
+.imgs{
+    margin-right: 32px;
+    transform: scale(.7);
+    transition: all 300ms ease-in-out;
+    cursor: pointer;
+}
+
+.imgs:hover{
+    transform: scale(1);
+}
+.weasign{
+    font-size: 35px;
+}
+.mainimg{
+    transition: all 400ms ease;
+    opacity: 1;
+animation: FadeDown 1s forward;
+}
+
+
+@keyframes FadeDown {
+    from{
+        opacity: 0;
+        transform: translateY(-100%);
+    }to{
+        opacity: 1;
+        transform: translateY(100%);
+    }
+    
+}
+
+#signup{
+    color:white;
+    width:100px;
+    textAlign:center;
+    border-radius: .5rem;
+   background:blue;
+   padding:10px;
+    transition: all 300ms ease-in-out;
+    transform: scale(1);
+
+}
+#signup:hover{
+    color: rgb(238, 255, 0);
+    background-color: black;
+   transform: scale(1.3);
+
+}

@@ -1,0 +1,10 @@
+.headd p{
+    cursor: pointer;
+transition: all 200ms ease-in-out;
+transform: scale(1);
+}
+
+.headd p:hover{
+transform: scale(1.4);
+text-decoration:overline;
+}
